@@ -15,7 +15,7 @@ export default function ProductCard({
     <div className="rounded-lg overflow-hidden border border-gray-200 transition-all duration-300 hover:shadow-lg">
       <div className="relative w-full h-48">
         <Image
-          src={image || "/placeholder.svg"}
+          src={image || "/product.webp"}
           alt={title}
           fill
           className="object-contain"
